@@ -127,12 +127,12 @@ if __name__ == "__main__":
             drawBoard=chrom
             printFunc(chrom)
        
-    board=[]
-    for x in range(N):
-        board.append(["x"]*N)
+    #board=[]
+    #for x in range(N):
+    #    board.append(["x"]*N)
             
-    for i in range(N):
-        board[N-drawBoard[i]][i]="Q"
+    #for i in range(N):
+    #    board[N-drawBoard[i]][i]="Q"
 
-    for row in board:
-        print("".join(row))
+    #for row in board:
+    #    print("".join(row))
